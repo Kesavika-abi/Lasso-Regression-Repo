@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Revenue Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Movie Revenue Prediction</h1>
+        <form action="/predict" method="POST">
+            <label>Budget (in million $):</label>
+            <input type="number" step="0.01" name="Budget" required>
+
+            <label>Cast Popularity (0-100):</label>
+            <input type="number" step="0.01" name="Cast_Popularity" required>
+
+            <label>Director Success Rate (0-100):</label>
+            <input type="number" step="0.01" name="Director_Success_Rate" required>
+
+            <label>Social Media Mentions:</label>
+            <input type="number" step="1" name="Social_Media_Mentions" required>
+
+            <label>Genre Popularity (0-100):</label>
+            <input type="number" step="0.01" name="Genre_Popularity" required>
+
+            <label>Trailer Views:</label>
+            <input type="number" step="1" name="Trailer_Views" required>
+
+            <label>Release Month (1-12):</label>
+            <input type="number" min="1" max="12" name="Release_Month" required>
+
+            <label>Expected Screens:</label>
+            <input type="number" step="1" name="Expected_Screens" required>
+
+            <button type="submit">Predict Revenue</button>
+        </form>
+    </div>
+</body>
+</html>
