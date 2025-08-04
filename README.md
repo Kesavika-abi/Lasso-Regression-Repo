@@ -77,6 +77,6 @@ http://127.0.0.1:5000/
 
 #### screenshots
 
-![input](image.png)
+![input](input.png)
 
-![result](image-1.png)
+![result](result.png)
