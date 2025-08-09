@@ -62,21 +62,24 @@ Open in your browser:
 http://127.0.0.1:5000/
 
 ### Use Cases
-- **Predicting box office performance before release**
+- Predicting box office performance before release
 
-- **Helping marketing teams optimize budgets**
+- Helping marketing teams optimize budgets
 
-- **Demonstrating Lasso Regression in real-world applications**
+- Demonstrating Lasso Regression in real-world applications
 
 ### Future Enhancements
-- **Integrate with a movie database API for automatic input fields**
+- Integrate with a movie database API for automatic input fields
 
-- **Allow comparison between multiple regression models**
+- Allow comparison between multiple regression models
 
-- **Deploy online via Heroku, Render, or similar platforms**
+- Deploy online via Heroku, Render, or similar platforms
 
-#### screenshots
+### screenshots
+
+## Input Page
 
 ![input](input.png)
 
+## Result Page
 ![result](result.png)
