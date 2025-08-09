@@ -75,7 +75,7 @@ http://127.0.0.1:5000/
 
 - Deploy online via Heroku, Render, or similar platforms
 
-### screenshots
+## Screenshots
 
 ## Input Page
 
